@@ -7,7 +7,7 @@ Size: 99,441 orders | 8 relational tables | 2016–2018
 Tables: Orders, Customers, Products, Sellers, Payments, Reviews, Order Items, Category Translation
 
 Tools Used:- 
-<img width="896" height="252" alt="image" src="https://github.com/user-attachments/assets/e13cc03e-f8b7-4311-8523-566e37261d45" />
+MySQLData (for storage and business query analysis), Python (like Pandas, SQLAlchemy - for Data loading and preprocessing), PowerBI (for Interactive dashboard and visualization) 
 
 Key Business Insights:-
 💰 R$13.59M total revenue generated across 99,441 orders
@@ -32,12 +32,4 @@ Payment Analysis
 SQL Analysis:- 
 Seven business queries written covering revenue analysis, delivery performance, customer geography, seller performance, and review scoring. See olist_queries.sql for full code.
 
-Project Structure:- 
-olist-ecommerce-analysis/
-├── olist_queries.sql      # All SQL business queries
-├── olist_analysis.pbix    # Power BI dashboard file
-├── Page 1.png     # Dashboard screenshots
-├── Page 2.png
-├── Page 3.png
-└── README.md
 End-to-end data analysis of Olist Brazilian e-commerce platform using SQL, Python, and Power BI
